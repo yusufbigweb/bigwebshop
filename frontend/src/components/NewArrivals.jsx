@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router";
 // Demo products (replace later with API)
 const products = [
   {
@@ -54,7 +54,7 @@ const products = [
 
 function NewArrivals() {
   return (
-    <section className="py-12 bg-white">
+    <section className="py-12 bg-[#f5f5f5]">
       <div className="max-w-7xl mx-auto px-4">
 
         {/* Section Heading */}
@@ -95,7 +95,9 @@ function NewArrivals() {
         {/* View All Button */}
         <div className="text-center mt-10">
           <button className="px-8 py-2 border border-black text-black rounded-full hover:bg-black hover:text-white transition">
+          <Link to={"/shop"}>
             View All
+          </Link>
           </button>
         </div>
       </div>
