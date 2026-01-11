@@ -26,7 +26,7 @@ function Navbar() {
             </button>
 
             <Link to="/" className="font-bold text-lg">
-              @bigwebyusuf - Ecommerce
+              @bigwebyusuf
             </Link>
           </div>
 
