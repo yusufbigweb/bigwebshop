@@ -9,9 +9,9 @@ function Home() {
     <div>
         <Slider/>
         <TopCategories/>
+        
         <NewArrivals/>
         <FAQ/>
-
     </div>
   )
 }
