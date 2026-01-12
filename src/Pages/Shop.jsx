@@ -10,10 +10,10 @@ const Shop = () => {
     maxPrice: 5000,
   });
 
-  const featuredProducts = useMemo(
-    () => productsData.filter((p) => p.featured),
-    []
-  );
+  // const featuredProducts = useMemo(
+  //   () => productsData.filter((p) => p.featured),
+  //   []
+  // );
 
   const filteredProducts = useMemo(() => {
     return productsData.filter((p) => {
@@ -28,10 +28,10 @@ const Shop = () => {
   }, [filters]);
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-12">
+    <div className="max-w-7xl mx-auto px-6 py-20">
       
       {/* Featured */}
-      <section className="mb-16">
+      {/* <section className="mb-16">
         <SectionHeader
           title="Featured Collection"
           subtitle="Hand-picked styles curated for you"
@@ -41,7 +41,7 @@ const Shop = () => {
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Shop */}
       <section className="grid grid-cols-1 md:grid-cols-4 gap-12">

@@ -26,7 +26,11 @@ const products = [
   },
   {
     id:4,
-    name: ""
+    name: "Casual T-Shirt",
+    price: 799,
+    category: "T-Shirts",
+    featured: false,
+    image: "https://www.dudeme.in/cdn/shop/files/10_d0941450-1406-47ae-9811-d956e3b1f3c5.jpg?v=1767418740&width=600",
   }
 ];
 
