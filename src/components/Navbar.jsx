@@ -49,7 +49,7 @@ function Navbar() {
 
           {/* RIGHT: USER + CART */}
           <div className="flex items-center gap-3">
-            <Link to="/login" className="border p-2 rounded-md">
+            <Link to="/signin" className="border p-2 rounded-md">
               <FaRegUser />
             </Link>
             <Link to="/card" className="border p-2 rounded-md">
